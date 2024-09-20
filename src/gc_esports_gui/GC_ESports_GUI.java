@@ -897,7 +897,9 @@ public class GC_ESports_GUI extends javax.swing.JFrame
         // newCompPoints_JTextField
         if (validateNewCompResult() == true)
         {
-           private void addNewCompResult_jButtonActionPerformed(java.awt.event.ActionEvent evt) {  
+        }  
+
+private void addNewCompResult_jButtonActionPerformed(java.awt.event.ActionEvent evt) {  
     // Call the validation method
     if (validateNewCompResult()) /* TO DO
     {
@@ -937,7 +939,7 @@ public class GC_ESports_GUI extends javax.swing.JFrame
             JOptionPane.showMessageDialog(null, "Failed to update Excel file: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
         }
     }*/
-}
+    }
 
             
         }
